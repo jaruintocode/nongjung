@@ -1,0 +1,98 @@
+maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 140)
+basic.pause(240)
+maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
+basic.pause(2800)
+maqueen.motorStop(maqueen.Motors.All)
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 110)
+basic.pause(250)
+maqueen.motorStop(maqueen.Motors.All)
+basic.pause(1900)
+for (let index = 0; index < 3; index++) {
+    maqueen.servoRun(maqueen.Servos.S1, 120)
+    maqueen.servoRun(maqueen.Servos.S2, 30)
+    basic.pause(100)
+    maqueen.servoRun(maqueen.Servos.S1, 70)
+    maqueen.servoRun(maqueen.Servos.S2, 60)
+}
+basic.pause(200)
+for (let index = 0; index < 3; index++) {
+    maqueen.servoRun(maqueen.Servos.S1, 120)
+    maqueen.servoRun(maqueen.Servos.S2, 30)
+    basic.pause(100)
+    maqueen.servoRun(maqueen.Servos.S1, 70)
+    maqueen.servoRun(maqueen.Servos.S2, 60)
+}
+basic.pause(200)
+for (let index = 0; index < 3; index++) {
+    maqueen.servoRun(maqueen.Servos.S1, 120)
+    maqueen.servoRun(maqueen.Servos.S2, 30)
+    basic.pause(100)
+    maqueen.servoRun(maqueen.Servos.S1, 70)
+    maqueen.servoRun(maqueen.Servos.S2, 60)
+}
+basic.pause(200)
+for (let index = 0; index < 3; index++) {
+    maqueen.servoRun(maqueen.Servos.S1, 120)
+    maqueen.servoRun(maqueen.Servos.S2, 30)
+    basic.pause(100)
+    maqueen.servoRun(maqueen.Servos.S1, 70)
+    maqueen.servoRun(maqueen.Servos.S2, 60)
+}
+basic.pause(200)
+for (let index = 0; index < 3; index++) {
+    maqueen.servoRun(maqueen.Servos.S1, 120)
+    maqueen.servoRun(maqueen.Servos.S2, 30)
+    basic.pause(100)
+    maqueen.servoRun(maqueen.Servos.S1, 70)
+    maqueen.servoRun(maqueen.Servos.S2, 60)
+}
+basic.pause(200)
+for (let index = 0; index < 3; index++) {
+    maqueen.servoRun(maqueen.Servos.S1, 120)
+    maqueen.servoRun(maqueen.Servos.S2, 30)
+    basic.pause(100)
+    maqueen.servoRun(maqueen.Servos.S1, 80)
+    maqueen.servoRun(maqueen.Servos.S2, 60)
+}
+maqueen.servoRun(maqueen.Servos.S1, 30)
+maqueen.servoRun(maqueen.Servos.S2, 30)
+basic.pause(200)
+for (let index = 0; index < 3; index++) {
+    maqueen.servoRun(maqueen.Servos.S1, 60)
+    maqueen.servoRun(maqueen.Servos.S2, 80)
+    basic.pause(100)
+    maqueen.servoRun(maqueen.Servos.S1, 30)
+    maqueen.servoRun(maqueen.Servos.S2, 30)
+}
+basic.pause(150)
+for (let index = 0; index < 3; index++) {
+    maqueen.servoRun(maqueen.Servos.S1, 60)
+    maqueen.servoRun(maqueen.Servos.S2, 80)
+    basic.pause(100)
+    maqueen.servoRun(maqueen.Servos.S1, 30)
+    maqueen.servoRun(maqueen.Servos.S2, 30)
+}
+basic.pause(150)
+for (let index = 0; index < 3; index++) {
+    maqueen.servoRun(maqueen.Servos.S1, 60)
+    maqueen.servoRun(maqueen.Servos.S2, 80)
+}
+maqueen.servoRun(maqueen.Servos.S1, 120)
+maqueen.servoRun(maqueen.Servos.S2, 120)
+basic.pause(200)
+maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 241)
+basic.pause(1000)
+maqueen.motorStop(maqueen.Motors.All)
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 60)
+basic.pause(200)
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CCW, 60)
+basic.pause(200)
+maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 60)
+basic.pause(200)
+maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CCW, 60)
+basic.pause(200)
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 60)
+basic.pause(100)
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CCW, 60)
+basic.pause(100)
+maqueen.motorStop(maqueen.Motors.All)
